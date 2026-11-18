@@ -1,0 +1,23 @@
+# --- C++ (Archivos compilados y objetos) ---
+*.exe
+*.out
+*.o
+*.obj
+
+# --- VS CODE (Configuraciones de entorno) ---
+.vscode/
+
+# --- WINDOWS (Basura del sistema) ---
+Thumbs.db
+desktop.ini
+
+# --- EXCLUSIONES CRÍTICAS LPR ---
+# No subir archivos ejecutables ni pesados
+*.msi
+*.bin
+# Ignorar vistas previas temporales de PDF
+*.pdf_preview
+
+# --- CARPETAS DE DATOS TEMPORALES ---
+/src/*.exe
+/src/*.out
